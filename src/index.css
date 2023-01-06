@@ -14,7 +14,7 @@ header{
   color: whitesmoke;
   background-color: #F55A5A;
   font-size: .875em;
-  padding: .5em;
+  padding: .5em 0;
 }
 
 .fa-solid{
@@ -56,7 +56,7 @@ header{
 }
 
 .card-location{
-  padding-right: 1.25em;
+  margin-right: 1.25em;
 }
 
 .google-maps{
@@ -124,8 +124,6 @@ header{
   .card-locations{
     font-size: .65em;
   }
-
-
 
   .google-maps{
     position: relative;
