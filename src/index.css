@@ -135,7 +135,8 @@ header{
   }
 
   .card{
-    margin-bottom: 2,5em;
+    margin-bottom: 2.5em;
+    margin-left: 0
   }
 
   h1{
