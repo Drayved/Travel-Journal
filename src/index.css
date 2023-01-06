@@ -99,8 +99,6 @@ header{
     
   }
 
-
-
   .card{
     width: 200px;
     margin-left: 1em;
@@ -111,10 +109,12 @@ header{
   .card-text{
     width: 16.0625rem;
   }
+}
 
-  .card-img{
-    width:8em;
-    height: 15.93em;
+@media (max-width: 450px){
+  .card-text{
+    width: 200px;
+    font-size: .7em;
   }
 
   .card-about{
@@ -122,12 +122,10 @@ header{
     padding-left: 1em;
     height:15em;
   }
-}
 
-@media (max-width: 450px){
-  .card-text{
-    width: 200px;
-    font-size: .7em;
+  .card-img{
+    width:8em;
+    height: 15.93em;
   }
 
   .card-locations{
