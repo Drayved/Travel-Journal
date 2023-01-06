@@ -125,9 +125,7 @@ header{
     font-size: .65em;
   }
 
-  .card-location{
-    padding-right: .4em;
-  }
+
 
   .google-maps{
     position: relative;
