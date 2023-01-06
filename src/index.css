@@ -1,6 +1,3 @@
-* {
-  box-sizing: border-box;
-}
 
 html,
 body{
@@ -31,20 +28,20 @@ header{
 .card-container{
   display: flex;
   flex-direction: column;
-  text-align: left;
   margin: 0 auto -3.125em auto;
   padding:0;
+  
   
 }
 
 .card{
-  margin-left: 3.125em;
+  
   display: flex;
   text-align: center;
   align-items: center;
   width: 31.25em;
   height:24.375em;
- 
+  margin: 0 auto
 }
 
 .card-title{
@@ -73,17 +70,19 @@ header{
 }
 
 .card-text{
+  
   width: 34.375em;
   margin: 0 auto;
   text-align: left;
-  font-size: 14px;
+  font-size: .85em;
+  line-height: 1.5em;
 }
 
 /* images */
 
 .location-img{
   position: relative;
-  top: 1px;
+  top: 2px;
 }
 
 .card-img{
@@ -92,5 +91,59 @@ header{
   border-radius: 5px;
   object-fit: cover;
   margin-top: 3.125em;
+}
+
+/* Media queries */
+
+@media (max-width: 750px){
+  .card-container{
+    width: 100%;
+    
+  }
+
+
+
+  .card{
+    width: 200px;
+    margin-left: 1em;
+  }
+}
+
+@media (max-width: 650px){
+  .card-text{
+    width: 16.0625rem;
+  }
+}
+
+@media (max-width: 450px){
+  .card-text{
+    width: 200px;
+    font-size: .7em;
+  }
+
+  .card-locations{
+    font-size: .65em;
+  }
+
+  .card-location{
+    padding-right: .4em;
+  }
+
+  .google-maps{
+    position: relative;
+    top:2px;
+  }
+
+  .card{
+    margin-bottom: 2,5em;
+  }
+
+  h1{
+    font-size: 1.5em;
+  }
+
+  h4{
+    font-size: .8em;
+  }
 }
 
