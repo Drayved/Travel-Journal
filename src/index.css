@@ -6,7 +6,6 @@ html,
 body{
   margin: 0;
   padding:0;
-  height: 100vh;
   font-family: 'Inter', sans-serif;
 }
 
@@ -17,7 +16,7 @@ header{
   justify-content: center;
   color: whitesmoke;
   background-color: #F55A5A;
-  font-size: 14px;
+  font-size: .875em;
   padding: .5em;
 }
 
@@ -25,23 +24,26 @@ header{
   margin-right: .25em;
 }
 
+
+
+/* cards */
+
 .card-container{
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
   text-align: left;
-  margin: 0 auto -50px auto;
+  margin: 0 auto -3.125em auto;
   padding:0;
+  
 }
 
 .card{
-  margin-left: 50px;
+  margin-left: 3.125em;
   display: flex;
-  justify-content: space-between;
   text-align: center;
   align-items: center;
-  width: 500px;
-  height:390px;
+  width: 31.25em;
+  height:24.375em;
  
 }
 
@@ -52,36 +54,43 @@ header{
 .card-locations{
   display: flex;
   align-items: center;
-  margin-top:25px;
+  margin-top:1.56em;
   text-align: left;
 }
 
 .card-location{
-  padding-right: 20px;
+  padding-right: 1.25em;
 }
 
 .google-maps{
   color:#918E9B
 }
 
-.card-text{
-  width: 550px;
-  
-  margin: 0 auto;
-  text-align: left;
-}
-
 .card-about{
   text-align: left;
   padding-left: 1em;
-  height:250px;
+  height:15.625em;
+}
+
+.card-text{
+  width: 34.375em;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 14px;
+}
+
+/* images */
+
+.location-img{
+  position: relative;
+  top: 1px;
 }
 
 .card-img{
-  width:160px;
-  height: 255px;
+  width:10em;
+  height: 15.93em;
   border-radius: 5px;
   object-fit: cover;
-  margin-top: 50px;
-  
+  margin-top: 3.125em;
 }
+

@@ -1,5 +1,5 @@
 import React from "react"
-
+import location from "./images/location.png"
 
 
 export default function Cards(props){
@@ -13,7 +13,9 @@ export default function Cards(props){
             
                 <div className="card-about">
                     <div className="card-locations">
-                        <p className="card-location">{props.location.toUpperCase()}</p>
+                        <p className="card-location">
+                            <img className="location-img" src={location} alt="" /> {props.location.toUpperCase()}
+                        </p>
                         <a className="google-maps" href="{props.googleMaps}">View on Google Maps</a>
                     </div>
                     
