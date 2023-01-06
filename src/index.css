@@ -113,6 +113,11 @@ header{
   .card-text{
     width: 16.0625rem;
   }
+
+  .card-img{
+    width:8em;
+    height: 13.93em;
+  }
 }
 
 @media (max-width: 450px){
